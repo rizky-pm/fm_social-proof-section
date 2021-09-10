@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Rating from './Rating';
+import Review from './Review';
 
 const Container = styled.section`
     position: relative;
@@ -9,19 +9,19 @@ const Container = styled.section`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 325px;
+    height: 775px;
     width: 335px;
     margin-top: 40px;
     left: 50%;
     transform: translate(-50%, 0%);
 `;
 
-const Ratings = () => {
+const Reviews = () => {
     return (
         <Container>
-            <Rating />
+            <Review />
         </Container>
     );
 };
 
-export default Ratings;
+export default Reviews;
