@@ -14,8 +14,12 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: ${cssvariables.FONTFAMILY};
         color: ${cssvariables.COLORS.primary};
-        text-align: center;
-        padding: 80px 35px;
+        padding: 5rem 2.1875rem;
+
+        @media only screen and (min-width: ${cssvariables.SIZE.laptops}) {
+            padding: 3.125rem 6.25rem;
+            overflow: hidden;
+        }
     }
 `;
 

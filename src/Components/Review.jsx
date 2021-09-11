@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import { COLORS, FONTWEIGHT } from '../constants';
 import { REVIEWS } from '../dataSets';
+import { SIZE } from '../constants';
 
 const Container = styled.section`
     background-color: ${COLORS.primary};
@@ -13,23 +14,32 @@ const Container = styled.section`
         'pict status'
         'review review';
     grid-template-columns: 1fr 3.5fr;
-    grid-template-rows: 25px 40px;
-    height: 245px;
+    grid-template-rows: 1.5625rem 2.5rem;
+    height: 15.3125rem;
     width: 100%;
-    padding: 30px 20px;
-    border-radius: 10px;
-    font-size: 14px;
+    padding: 1.875rem 1.25rem;
+    border-radius: 0.625rem;
+    font-size: 0.875rem;
+
+    @media only screen and (min-width: ${SIZE.laptops}) {
+        grid-template-rows: 1.5625rem 1fr;
+        grid-template-columns: 1fr 4fr;
+        height: 220px;
+        width: 21.875rem;
+        margin-top: ${(props) => props.marginTop}px;
+        padding: 1.875rem;
+    }
 `;
 
 const ProfilePicture = styled.img`
     grid-area: pict;
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
 `;
 
 const FullName = styled.p`
-    margin-top: 2.5px;
+    margin-top: 0.15625rem;
     grid-area: fullname;
     color: ${COLORS.white};
     font-weight: ${FONTWEIGHT.medium};
@@ -43,15 +53,21 @@ const Status = styled.p`
 
 const WhatTheySaid = styled.p`
     grid-area: review;
-    width: 290px;
+    width: 18.125rem;
     color: ${COLORS.white};
-    line-height: 25px;
+    line-height: 1.5625rem;
+
+    @media only screen and (min-width: ${SIZE.laptops}) {
+        font-size: 0.8125rem;
+    }
 `;
 
 const Review = () => {
+    let marginTop = -1;
     return REVIEWS.map((review) => {
+        marginTop += 1;
         return (
-            <Container key={review.id}>
+            <Container key={review.id} marginTop={`${marginTop * 15}`}>
                 <ProfilePicture src={review.picture} alt='' />
                 <FullName>{review.fullName}</FullName>
                 <Status>{review.status}</Status>
