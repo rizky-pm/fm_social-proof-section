@@ -12,15 +12,15 @@ const Container = styled.section`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 38.4375rem;
+    height: 48.4375rem;
     width: 20.9375rem;
     margin-top: 2.5rem;
     left: 50%;
     transform: translate(-50%, 0%);
 
     @media only screen and (min-width: ${SIZE.laptops}) {
-        margin-top: 32px;
-        height: 16.875rem;
+        margin-top: 2rem;
+        height: 15.625rem;
         width: 100%;
         align-items: flex-start;
         flex-direction: row;

@@ -1,5 +1,3 @@
-**Not Finished Yet**
-
 # Frontend Mentor - Social proof section solution
 
 This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -32,9 +30,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Github](https://github.com/rizky-pm/fm_social-proof-section)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-**Not Finished Yet**
+-   Live Site URL: [Github Pages](https://rizky-pm.github.io/fm_social-proof-section/)
 
 ## My process
 

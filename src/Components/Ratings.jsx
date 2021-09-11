@@ -19,7 +19,8 @@ const Container = styled.section`
     transform: translate(-50%, 0%);
 
     @media only screen and (min-width: ${SIZE.laptops}) {
-        height: 13.75rem;
+        height: 13.75rem; // 220px
+        /* height: 200px; */
         margin-top: 0.9375rem;
         left: 5.9375rem;
 

@@ -17,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
         padding: 5rem 2.1875rem;
 
         @media only screen and (min-width: ${cssvariables.SIZE.laptops}) {
-            padding: 3.125rem 6.25rem;
+            padding: 50px 6.25rem;
             overflow: hidden;
         }
     }

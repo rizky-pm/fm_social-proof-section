@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import GlobalStyle from './globalStyles';
 import { SIZE } from './constants';
+import { COLORS } from './constants';
 
 import Header from './Components/Header';
 import Ratings from './Components/Ratings';
@@ -30,6 +31,11 @@ const TopBackground = styled.img`
     top: 0;
     left: 2.5rem;
     z-index: -1000;
+
+    @media only screen and (min-width: ${SIZE.laptops}) {
+        top: 0;
+        left: 3.75rem;
+    }
 `;
 
 const BottomBackground = styled.img`
@@ -37,6 +43,31 @@ const BottomBackground = styled.img`
     bottom: -52.8215rem;
     right: 2.5rem;
     z-index: -1000;
+
+    @media only screen and (min-width: ${SIZE.laptops}) {
+        bottom: 0;
+        right: 0;
+    }
+`;
+
+const Attribution = styled.section`
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 500;
+    position: relative;
+    left: 50%;
+    /* top: 2.5rem; */
+    top: 1.5625rem;
+`;
+
+const Link = styled.a`
+    color: inherit;
+    transition: all ease 0.2s;
+
+    :hover {
+        text-decoration: none;
+        color: ${COLORS.secondary};
+    }
 `;
 
 function App() {
@@ -48,6 +79,17 @@ function App() {
             <Ratings />
             <Reviews />
             <BottomBackground src={MobileBottomBackground} alt='' />
+            <Attribution>
+                Challenge by&nbsp;
+                <Link href='https://www.frontendmentor.io?ref=challenge'>
+                    Frontend Mentor
+                </Link>
+                . Coded by{' '}
+                <Link href='https://github.com/rizky-pm'>
+                    Rizky Putra Mahendra
+                </Link>
+                .
+            </Attribution>
         </AppContainer>
     );
 }
