@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/fm_social-proof-section/static/js/main.7d452d49.chunk.js",
-    "main.js.map": "/fm_social-proof-section/static/js/main.7d452d49.chunk.js.map",
+    "main.js": "/fm_social-proof-section/static/js/main.64d9e513.chunk.js",
+    "main.js.map": "/fm_social-proof-section/static/js/main.64d9e513.chunk.js.map",
     "runtime-main.js": "/fm_social-proof-section/static/js/runtime-main.c1221915.js",
     "runtime-main.js.map": "/fm_social-proof-section/static/js/runtime-main.c1221915.js.map",
     "static/js/2.9a46b00a.chunk.js": "/fm_social-proof-section/static/js/2.9a46b00a.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.c1221915.js",
     "static/js/2.9a46b00a.chunk.js",
-    "static/js/main.7d452d49.chunk.js"
+    "static/js/main.64d9e513.chunk.js"
   ]
 }
