@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/fm_social-proof-section/static/js/main.7d452d49.chunk.js",
+    "main.js.map": "/fm_social-proof-section/static/js/main.7d452d49.chunk.js.map",
+    "runtime-main.js": "/fm_social-proof-section/static/js/runtime-main.c1221915.js",
+    "runtime-main.js.map": "/fm_social-proof-section/static/js/runtime-main.c1221915.js.map",
+    "static/js/2.9a46b00a.chunk.js": "/fm_social-proof-section/static/js/2.9a46b00a.chunk.js",
+    "static/js/2.9a46b00a.chunk.js.map": "/fm_social-proof-section/static/js/2.9a46b00a.chunk.js.map",
+    "index.html": "/fm_social-proof-section/index.html",
+    "static/js/2.9a46b00a.chunk.js.LICENSE.txt": "/fm_social-proof-section/static/js/2.9a46b00a.chunk.js.LICENSE.txt",
+    "static/media/bg-pattern-bottom-mobile.593835ec.svg": "/fm_social-proof-section/static/media/bg-pattern-bottom-mobile.593835ec.svg",
+    "static/media/bg-pattern-top-mobile.58eed600.svg": "/fm_social-proof-section/static/media/bg-pattern-top-mobile.58eed600.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1221915.js",
+    "static/js/2.9a46b00a.chunk.js",
+    "static/js/main.7d452d49.chunk.js"
+  ]
+}
