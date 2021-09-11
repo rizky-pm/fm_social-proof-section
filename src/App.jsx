@@ -53,11 +53,14 @@ const BottomBackground = styled.img`
 const Attribution = styled.section`
     text-align: center;
     font-size: 0.75rem;
+    line-height: 1rem;
     font-weight: 500;
     position: relative;
-    left: 50%;
-    /* top: 2.5rem; */
     top: 1.5625rem;
+
+    @media only screen and (min-width: ${SIZE.laptops}) {
+        left: 50%;
+    }
 `;
 
 const Link = styled.a`

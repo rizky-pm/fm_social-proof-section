@@ -23,9 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-**Not Finished Yet**
+![Desktop Preview](./result_screenshots/desktop-preview.png)
+![Mobile Preview](./result_screenshots/mobile-preview.png)
 
 ### Links
 
